@@ -5,7 +5,6 @@ import boardgame.Piece;
 import boardgame.Position;
 import chess.pieces.*;
 
-import java.security.InvalidParameterException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -241,7 +240,7 @@ public class ChessMatch {
                 chessPiece = new Queen(board, color);
                 break;
             default:
-                throw new InvalidParameterException("Invalid type for promotion");
+                throw new RuntimeException("Invalid type for promotion");
         }
 
         return chessPiece;
