@@ -1,5 +1,5 @@
 # Chess System
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/JulioEvencio/chess/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/JulioEvencio/terminal/blob/main/LICENSE) 
 
 ## About
 A chess software via terminal
